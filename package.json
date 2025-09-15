@@ -1,0 +1,41 @@
+{
+  "name": "datis2-ui",
+  "version": "0.0.1",
+  "description": "Rail Fleet Management",
+  "productName": "Datis2",
+  "author": "Ahmad Faizabadi",
+  "private": true,
+  "scripts": {
+    "lint": "eslint --ext .js,.vue ./",
+    "format": "prettier --write \"**/*.{js,vue,scss,html,md,json}\" --ignore-path .gitignore",
+    "test": "echo \"No test specified\" && exit 0",
+    "dev": "quasar dev",
+    "build": "quasar build"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.17.0",
+    "axios": "^1.2.1",
+    "jalaali-js": "^1.2.7",
+    "pinia": "^2.0.11",
+    "postcss-rtlcss": "^5.5.0",
+    "quasar": "^2.18.2",
+    "samim-font": "^4.0.5",
+    "vazirmatn": "^33.0.3",
+    "vue": "^3.0.0",
+    "vue-router": "^4.0.0"
+  },
+  "devDependencies": {
+    "@quasar/app-vite": "^1.11.0",
+    "autoprefixer": "^10.4.2",
+    "eslint": "^8.10.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-vue": "^9.0.0",
+    "postcss": "^8.4.14",
+    "prettier": "^2.5.1"
+  },
+  "engines": {
+    "node": "^18 || ^16 || ^14.19",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  }
+}

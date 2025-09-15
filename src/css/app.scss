@@ -1,0 +1,45 @@
+// app global css in SCSS form
+@import url(./font-face.css);
+$body-font-size: 10px !default;
+.my-font {
+  font-family: Samim, Vazirmatn;
+}
+
+.text-small {
+  font-size: x-small !important;
+  font-weight: 700 !important;
+}
+
+.text-smaller {
+  font-size: xx-small;
+}
+
+.flex-break {
+  flex: 1 0 100% !important;
+}
+
+.primary-form {
+  background-color: #7a97ff5e;
+}
+
+.secondary-form {
+  background-color: #6ab2d514;
+  color: #263238;
+}
+
+.q-field {
+  font-size: 12px;
+}
+.q-field__label {
+  font-size: 13px;
+}
+
+.q-btn {
+  font-size: 13px;
+}
+
+.latin {
+  direction: rtl !important;
+}
+
+$space-base: 10px !default;
