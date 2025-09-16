@@ -1,5 +1,5 @@
 <template>
-  <q-card class="my-card column no-wrap rounded-borders items-center justify-center">
+  <q-card class="my-card column no-wrap rounded-borders items-center justify-between bg-blue-1">
     <div class="col-auto full-width">
       <div class="q-pa-sm bg-blue-grey-11 text-grey-10 text-subtitle2 text-center text-bold">
         {{ title }}
@@ -61,7 +61,9 @@
       </q-virtual-scroll>
 
     </div>
-    <q-btn class="col full-width bg-blue-grey-11" flat icon="arrow_back" v-close-popup="2" />
+    <!-- <q-btn class="col full-width bg-blue-grey-11" flat icon="arrow_back" v-close-popup="2" /> -->
+    <q-btn v-close-popup flat round dense icon="close" class="absolute-bottom-left" style="z-index: 10;" />
+
   </q-card>
 </template>
 
