@@ -1,6 +1,6 @@
 <template>
   <q-field outlined :label="label" stack-label>
-    <div class="row q-gutter-md">
+    <div class="row q-gutter-sm no-wrap">
 
       <div class="col q-pa-md" style="max-width: 300px">
         <q-input filled v-model="date" mask="date" :rules="['date']" :hint="fullPersianDate(model)">

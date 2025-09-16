@@ -2,7 +2,7 @@
   <div>
     <!-- <q-tree no-transition class="text-subtitle1" :nodes="dataTree" node-key="id" label-key="label" :filter="filter"
       :filter-method="filterLeaves" accordion @update:selected="onSelect" v-model:selected="selectedKey" ref="myTree" /> -->
-    <q-markup-table>
+    <q-markup-table style="max-height:40vh">
       <thead>
         <tr>
           <th class="text-left"><b>

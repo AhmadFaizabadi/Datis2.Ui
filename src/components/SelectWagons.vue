@@ -27,7 +27,7 @@
 
     <q-card-actions>
       <q-btn flat v-close-popup>تأیید</q-btn>
-      <q-btn flat v-close-popup @click="model = firstModel">انصراف</q-btn>
+      <q-btn flat v-close-popup>انصراف</q-btn>
     </q-card-actions>
   </q-card>
 </template>

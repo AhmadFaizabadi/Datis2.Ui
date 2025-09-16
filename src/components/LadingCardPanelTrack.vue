@@ -1,5 +1,5 @@
 <template>
-  <q-list style="max-height: 50vh;max-width:20rem" bordered padding class="rounded-borders scroll">
+  <q-list style="max-height: 50vh;max-width:20rem" padding class="rounded-borders scroll">
     <template v-for="t, index in tracks" :key="index">
       <q-item>
         <q-item-section>
